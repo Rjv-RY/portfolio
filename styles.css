@@ -3,15 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Jersey10";
-  src: url("/assets/fonts/Jersey10-Regular.ttf");
-  font-weight: normal;
-  font-weight: normal;
-}
-
-@font-face {
   font-family: "Retrolight";
-  src: url("/assets/fonts/Retrolight.ttf");
+  src: url("assets/fonts/Retrolight.ttf");
   font-weight: normal;
   font-weight: normal;
 }
