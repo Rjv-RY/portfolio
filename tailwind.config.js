@@ -31,11 +31,16 @@ module.exports = {
         },
       },
       backgroundImage: {
+        retro1:
+          "linear-gradient( #2989cc 0%, #d3e5ec 50%, #592451 51%, #b3628d 55%, #592451 59%, #b3628d 65%, #ac86a6 75%, #b3628d 100%);",
         hypno:
           "repeating-radial-gradient(circle at 50% 50%, rgba(75, 75, 255,0.5) 10px, rgba(0, 0, 0,0.5) 20px)",
+        bgTopGrad:
+          "linear-gradient(to bottom, black, #4b0082 50%, #4b0082 80%, black)",
+        griddy:
+          "repeating-linear-gradient(90deg,var(--grid-color, black) 0%,transparent calc(1px + var(--grid-blur, 0px)),transparent var(--grid-size),var(--grid-color, black)calc(var(--grid-size) + 1px + var(--grid-blur, 0px))),repeating-linear-gradient(180deg,var(--grid-color, black) 0%,transparent calc(1px + var(--grid-blur, 0px)),transparent var(--grid-size),var(--grid-color, black)calc(var(--grid-size) + 1px + var(--grid-blur, 0px)));",
       },
       fontFamily: {
-        jersey10: ["Jersey10", "sans-serif"],
         retrolight: ["Retrolight", "sans-serif"],
       },
       colors: {
